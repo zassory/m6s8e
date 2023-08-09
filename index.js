@@ -1,13 +1,18 @@
 const http = require('http');
+const fs = require('fs/promises');
+const { v4: uuidv4 } = require('uuid');
+
 const obtenerArchivos = require('./controllers/obtenerArchivos');
 const escribirArchivo = require('./controllers/escribirArchivo');
 const leerArchivos = require('./controllers/lecturaArchivos');
 
-const fs = require('fs/promises');
 
 const servidor = http.createServer(async (req, res) => {
     const { searchParams, pathname } = new URL(req.url, `http://${req.headers.host}`);
     const params = new URLSearchParams(searchParams);
+
+
+    //Switch dentro de otro, uno controla que la ruta exista y el otro el req.method que se ingrese
 
     switch (pathname) {
         case '/autos':
