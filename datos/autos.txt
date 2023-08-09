@@ -1,0 +1,38 @@
+{
+  "98b4fdef-1633-4aa5-9aac-7ddca33601cb": {
+    "marca": "subaru",
+    "modelo": "imprezza",
+    "anio": "2025",
+    "puertas": 5
+  },
+  "6703f4f5-fcf3-4aee-ac8f-b049d3ae5833": {
+    "marca": "suzuki",
+    "modelo": "ignis 2018",
+    "anio": "2018",
+    "puertas": 5
+  },
+  "c0727653-783b-4874-b439-f373f6e177d9": {
+    "marca": "chevrolet",
+    "modelo": "lt mt",
+    "anio": "2010",
+    "puertas": 5
+  },
+  "b548338e-9650-4e34-8df0-d58c737603c7": {
+    "marca": "citroen",
+    "modelo": "citronetta",
+    "anio": "1970",
+    "puertas": 5
+  },
+  "71839ab4-a580-4588-83eb-f71f6d566f85": {
+    "marca": "citroen",
+    "modelo": "citronetta",
+    "anio": "1970",
+    "puertas": 5
+  },
+  "1e864ea0-4286-4255-9578-22feba6944ba": {
+    "marca": "Chevrolet",
+    "modelo": "Chevette",
+    "anio": "1990",
+    "puertas": 5
+  }
+}
